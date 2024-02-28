@@ -1,0 +1,46 @@
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
+    color: white;
+}
+
+.card img {
+    box-shadow: 8px 8px gold;
+    position: relative;
+    object-fit: cover;
+    height: 270px;
+    max-height: 270px;
+    width: 270px;
+    max-width: 100%;
+    /* filter: saturate(.8); */
+}
+
+.card h3 {
+    margin-top: 20px;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+}
+
+.card p {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    height: 110px;
+    max-height: 110px;
+}
+
+.card h1 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.card button {
+    margin: 0 30px 5px;
+}

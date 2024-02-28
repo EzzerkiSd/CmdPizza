@@ -1,0 +1,17 @@
+.chooseUrFav{
+    background-color: black;
+    padding: 40px 10%;
+}
+.chooseUrFav h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.chooseUrFav .cards{
+    display: flex;
+    align-items: center;
+    gap: 20px 100px;
+    justify-content: center;
+    flex-wrap: wrap ;
+    padding-top: 40px;
+}
